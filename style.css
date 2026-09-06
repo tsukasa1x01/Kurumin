@@ -298,6 +298,7 @@ button:hover {
     padding: 30px;
     border: 1px solid #3a0a1b;
     background-color: rgba(15, 3, 9, 0.7);
+    border-radius: 12px;
     text-align: left;
     transition: 0.3s ease;
 }
