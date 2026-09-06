@@ -389,7 +389,7 @@
         <span class="social-arrow">↗</span>
     </a>
 
-    <a href="https://www.instagram.com/kurumii07x" class="social-card">
+    <a href="https://www.instagram.com/kuru.akn/" class="social-card">
         <span>03</span>
         <strong>INSTAGRAM</strong>
         <span class="social-arrow">↗</span>
@@ -398,12 +398,6 @@
     <a href="https://www.pinterest.com/nobinhosain/" class="social-card">
         <span>04</span>
         <strong>PINTEREST</strong>
-        <span class="social-arrow">↗</span>
-    </a>
-
-    <a href="#" class="social-card">
-        <span>05</span>
-        <strong>KURUMI.ONLINE</strong>
         <span class="social-arrow">↗</span>
     </a>
 
@@ -425,12 +419,13 @@
 
 
 <!-- =========================
-     ALL-TIME BEST
+    MY TOP #1
 ========================= -->
 
 <div class="anime-best">
 
-    <span class="anime-best-label">ALL-TIME BEST</span>
+    <span class="anime-best-meta">KURUMII ARCHIVE / ENTRY 001</span>
+    <span class="anime-best-label">MY TOP #1</span>
 
     <div class="anime-best-image">
         <img src="images/oshi-no-ko-best.jpg" alt="Oshi no Ko">
@@ -449,15 +444,13 @@
 
 <div class="anime-category">
 
-    
-<div class="anime-category">
-
-    <button class="anime-ribbon" type="button">
+    <button class="anime-ribbon" type="button" aria-expanded="false" aria-controls="anime-row-romance">
+        <span class="category-index">I</span>
         <span class="category-title">ROMANCE</span>
         <span class="anime-ribbon-icon">+</span>
     </button>
 
-    <div class="anime-row">
+    <div class="anime-row" id="anime-row-romance">
 
         <div class="anime-card">
             <img src="images/rascal.jpg" alt="Rascal Does Not Dream of Bunny Girl Senpai">
@@ -488,12 +481,13 @@
 <!-- COMEDY -->
 <div class="anime-category">
 
-    <button class="anime-ribbon" type="button">
+    <button class="anime-ribbon" type="button" aria-expanded="false" aria-controls="anime-row-comedy">
+        <span class="category-index">II</span>
         <span class="category-title">COMEDY</span>
         <span class="anime-ribbon-icon">+</span>
     </button>
 
-    <div class="anime-row">
+    <div class="anime-row" id="anime-row-comedy">
 
         <div class="anime-card">
             <img src="images/dandadan.jpg" alt="Dandadan">
@@ -521,12 +515,13 @@
 <!-- HAREM -->
 <div class="anime-category">
 
-    <button class="anime-ribbon" type="button">
+    <button class="anime-ribbon" type="button" aria-expanded="false" aria-controls="anime-row-harem">
+        <span class="category-index">III</span>
         <span class="category-title">HAREM</span>
         <span class="anime-ribbon-icon">+</span>
     </button>
 
-    <div class="anime-row">
+    <div class="anime-row" id="anime-row-harem">
 
         <div class="anime-card">
             <img src="images/date-a-live.jpg" alt="Date A Live">
@@ -554,12 +549,13 @@
 <!-- ACTION -->
 <div class="anime-category">
 
-    <button class="anime-ribbon" type="button">
+    <button class="anime-ribbon" type="button" aria-expanded="false" aria-controls="anime-row-action">
+        <span class="category-index">IV</span>
         <span class="category-title">ACTION</span>
         <span class="anime-ribbon-icon">+</span>
     </button>
 
-    <div class="anime-row">
+    <div class="anime-row" id="anime-row-action">
 
         <div class="anime-card">
             <img src="images/bleach.jpg" alt="Bleach">
@@ -587,12 +583,13 @@
 <!-- SLICE OF LIFE -->
 <div class="anime-category">
 
-    <button class="anime-ribbon" type="button">
+    <button class="anime-ribbon" type="button" aria-expanded="false" aria-controls="anime-row-slice-of-life">
+        <span class="category-index">V</span>
         <span class="category-title">SLICE OF LIFE</span>
         <span class="anime-ribbon-icon">+</span>
     </button>
 
-    <div class="anime-row">
+    <div class="anime-row" id="anime-row-slice-of-life">
 
         <div class="anime-card">
             <img src="images/horimiya.jpg" alt="Horimiya">
@@ -620,12 +617,13 @@
 <!-- PSYCHOLOGICAL -->
 <div class="anime-category">
 
-    <button class="anime-ribbon" type="button">
+    <button class="anime-ribbon" type="button" aria-expanded="false" aria-controls="anime-row-psychological">
+        <span class="category-index">VI</span>
         <span class="category-title">PSYCHOLOGICAL</span>
         <span class="anime-ribbon-icon">+</span>
     </button>
 
-    <div class="anime-row">
+    <div class="anime-row" id="anime-row-psychological">
 
         <div class="anime-card">
             <img src="images/death-note.jpg" alt="Death Note">
@@ -653,12 +651,13 @@
 <!-- MYSTERY -->
 <div class="anime-category">
 
-    <button class="anime-ribbon" type="button">
+    <button class="anime-ribbon" type="button" aria-expanded="false" aria-controls="anime-row-mystery">
+        <span class="category-index">VII</span>
         <span class="category-title">MYSTERY</span>
         <span class="anime-ribbon-icon">+</span>
     </button>
 
-    <div class="anime-row">
+    <div class="anime-row" id="anime-row-mystery">
 
         <div class="anime-card">
             <img src="images/apothecary-diaries.jpg" alt="The Apothecary Diaries">
@@ -666,14 +665,14 @@
             <h4>THE APOTHECARY DIARIES</h4>
         </div>
 
-        <div class="anime-card">
-            <img src="images/mystery-02.jpg" alt="Mystery Anime #02">
+        <div class="anime-card anime-card-placeholder">
+            <div class="anime-placeholder" aria-hidden="true">COMING SOON</div>
             <span class="anime-number">02</span>
             <h4>COMING SOON</h4>
         </div>
 
-        <div class="anime-card">
-            <img src="images/mystery-03.jpg" alt="Mystery Anime #03">
+        <div class="anime-card anime-card-placeholder">
+            <div class="anime-placeholder" aria-hidden="true">COMING SOON</div>
             <span class="anime-number">03</span>
             <h4>COMING SOON</h4>
         </div>
@@ -686,12 +685,13 @@
 <!-- DRAMA -->
 <div class="anime-category">
 
-    <button class="anime-ribbon" type="button">
+    <button class="anime-ribbon" type="button" aria-expanded="false" aria-controls="anime-row-drama">
+        <span class="category-index">VIII</span>
         <span class="category-title">DRAMA</span>
         <span class="anime-ribbon-icon">+</span>
     </button>
 
-    <div class="anime-row">
+    <div class="anime-row" id="anime-row-drama">
 
         <div class="anime-card">
             <img src="images/oshi-no-ko.jpg" alt="Oshi no Ko">
@@ -719,12 +719,13 @@
 <!-- ISEKAI -->
 <div class="anime-category">
 
-    <button class="anime-ribbon" type="button">
+    <button class="anime-ribbon" type="button" aria-expanded="false" aria-controls="anime-row-isekai">
+        <span class="category-index">IX</span>
         <span class="category-title">ISEKAI</span>
         <span class="anime-ribbon-icon">+</span>
     </button>
 
-    <div class="anime-row">
+    <div class="anime-row" id="anime-row-isekai">
 
         <div class="anime-card">
             <img src="images/rezero.jpg" alt="Re:Zero − Starting Life in Another World">
@@ -1103,7 +1104,7 @@
 
                                 <div class="youtube-embed">
 
-                                   <iframe
+                                <iframe
     src="https://www.youtube.com/embed/0saw1cGIl1A"
     title="Mephisto - Official Ending Sequence"
     loading="lazy"
@@ -1346,8 +1347,9 @@ document.querySelectorAll('.anime-ribbon').forEach(ribbon => {
     ribbon.addEventListener('click', () => {
 
         const category = ribbon.closest('.anime-category');
+        const isOpen = category.classList.toggle('open');
 
-        category.classList.toggle('open');
+        ribbon.setAttribute('aria-expanded', String(isOpen));
 
     });
 
